@@ -1,11 +1,8 @@
 def least_divisor(num):
-    temp = 0
-    for count in range(num, 1, -1):
+    for count in range(2, num):
         if num % count == 0:
-            temp = count
-    if temp == 0:
-        temp = num
-    return temp
+            return count
+    return num
 
 
 number = int(input('Введите число: '))

@@ -12,7 +12,7 @@ x_diff = x1 - x2
 y_diff = y1 - y2
 
 if x_diff == 0:
-    k = 1
+    k = 0
 else:
     k = y_diff / x_diff
 

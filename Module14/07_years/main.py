@@ -10,16 +10,12 @@ def num_match(start, stop):
         num_4 = count % 10
         if (num_1 == num_2 and num_1 == num_3) or (num_1 == num_3 and num_1 == num_4):
             print(temp)
-            pass
         elif (num_2 == num_1 and num_2 == num_3) or (num_2 == num_3 and num_2 == num_4):
             print(temp)
-            pass
         elif (num_3 == num_1 and num_3 == num_2) or (num_3 == num_2 and num_3 == num_4):
             print(temp)
-            pass
         elif (num_4 == num_1 and num_4 == num_2) or (num_4 == num_2 and num_4 == num_3):
             print(temp)
-            pass
 
 start = int(input('Введите первый год: '))
 stop = int(input('Введите второй год: '))

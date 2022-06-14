@@ -1,7 +1,7 @@
 import math
 
 def radius_point(x, y, r):
-    radius = math.sqrt((x*2)**2 + (y*2)**2) / 2
+    radius = math.sqrt(x**2 + y**2)
     if r >= radius:
         print('\nМонетка где-то рядом')
     else:
